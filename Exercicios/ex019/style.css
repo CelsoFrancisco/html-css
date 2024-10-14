@@ -1,0 +1,30 @@
+body{
+background-color: rgb(255, 216, 216);
+font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:rgb(255, 0, 0) ;
+}
+h2{color:rgb(255, 110, 110) ;}
+
+h1#teste{
+    background-color: pink;
+    text-align: center;
+    color: white;
+}
+
+.destaque{
+    background-color:#C243DE ;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pri{
+    color:#E049B7 ;
+}
+.sec{
+    color:#5C43DE ;
+}
+.ter{
+    color:#8F43DE ;
+}
