@@ -5,7 +5,17 @@ body{
 table{
     width: 500px;
     border-collapse: collapse;
+    position: relative
 }
+thead > tr > th{
+    position: sticky;
+    background-color: gray;
+    top: -1px;
+}
+tbody > tr:nth-child(odd) {
+    background-color: gray;
+}
+
 
 td, th{
     border: 1px solid black;
@@ -22,3 +32,4 @@ caption{
     background-color: gray;
     padding: 10px;
 }
+
