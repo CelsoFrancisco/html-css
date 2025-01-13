@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Temporada</a></li>
+                <li><a href="#">Jogos</a></li>
+                <li><a href="#">Entretenimento</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Novo personagem TEJO</h2>
+            <p>Nosso mais novo Iniciador, Tejo, o homem de ação mais estiloso que você já viu, entrou oficialmente para o elenco de Agentes.
+
+                Vindo da Colômbia, Tejo com certeza vai agitar o jogo com seu kit único, que força os inimigos a abandonarem as posições usando uma abordagem um tanto quanto explosiva. Tejo exige que você pense de forma proativa e estratégica, analise a situação no meio da rodada e utilize habilidades para abrir caminho para a equipe. Com base no estilo de jogo do inimigo, onde é provável que ele esteja? Você consegue usar a localização dele a seu favor e deixá-lo vulnerável?</p>
+
+                <p>"Vimos uma oportunidade de mecânica nova: queríamos ter um Iniciador que pensasse no mapa de forma um pouco diferente, mais como um todo, em vez de analisar os ângulos um a um. Nossa intenção era adicionar algumas habilidades para desentocar inimigos, o que tornou muito interessante criar essas janelas de poder", observou Ryan "Rycou" Cousart, Designer de Jogo do Tejo. </p>
+
+                <p>Os Iniciadores precisam fazer as coisas com precisão. Todos nós já passamos por isso: procurar guias de Agente no YouTube, abrir uma personalizada para testar um pixel, atravessar as paredes para ver se tudo está no lugar certo. O Tejo oferece a quem joga de Iniciador algo diferente, pois é capaz de posicionar com precisão os utilitários usando áreas mais específicas dos mapas, em vez de depender dos alinhamentos de pixels perfeitos que alguns utilitários de mais impacto podem precisar. Isso permite que você tenha mais precisão no que planeja fazer, porém com a desvantagem de ter uma área de impacto menor.
+
+                    Mas, para tirar total proveito dos utilitários precisos, Tejo precisa de algumas informações e, assim como os outros Iniciadores, ele é muito bom em coletar essas informações por conta própria. "Como o Tejo pode captar informações sobre onde estão os inimigos, ele seja pode ser mais consistente em tudo que oferece", afirmou John "Riot MEMEMEMEME" Goscicki, líder da equipe de Agentes. "Tejo é um dos poucos Iniciadores sem clarão, então ele funciona melhor com outro Iniciador como Breach ou KAY/O, assim é possível criar jogadas mais rápidas e explosivas."</p>
+
+                    <p> “Drones geralmente oferecem um grande padrão básico de coleta de informações, mas queríamos dar um toque especial a esse em particular, colocando a informação em um segundo plano, dando mais destaque à Supressão que ele causa”, disse Ryan "Rycou" Cousart.
+
+                        Esteja sua equipe atacando e tentando garantir um ponto de bomba ou defendendo e tentando uma retomada, um drone pode fazer muita diferença. Especialmente em mapas com muitos cantos para limpar, ele permite ganhar espaço com segurança ou se preparar para a disputa. Como os drones são ótimos utilitários, a equipe inimiga costuma estar preparada para abater o que quer que você esteja usando para ganhar espaço. O Drone Furtivo, do Tejo, é único porque ele fica invisível a longa distância, dando mais tempo para coletar informações sobre a localização da equipe inimiga.
+                        
+                        </p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() { 
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }    
+        }
+
+    </script>
+    
+</body>
+</html>
